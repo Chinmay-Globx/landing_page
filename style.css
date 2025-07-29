@@ -7,10 +7,10 @@
 body {
   font-family: 'Montserrat', Arial, sans-serif;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  color: #2c3e50;
+  color: #1a1a1a;
   line-height: 1.6;
   overflow-x: hidden;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Modern scrollbar */
@@ -219,7 +219,7 @@ html {
 }
 .main-nav a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #1a1a1a;
   font-weight: 600;
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
@@ -310,15 +310,14 @@ html {
 .hero-text p {
   font-size: 1.6rem;
   margin-bottom: 3rem;
-  opacity: 1;
-  font-weight: 400;
+  opacity: 0.9;
+  font-weight: 300;
   line-height: 1.6;
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  color: #fff;
 }
 .primary-btn {
   background: linear-gradient(135deg, #d4af37 0%, #f4e4bc 100%);
-  color: #2c3e50;
+  color: #1a1a1a;
   padding: 1.2rem 3rem;
   border: none;
   border-radius: 50px;
@@ -420,14 +419,6 @@ html {
   border-radius: 2px;
 }
 
-.about-text p {
-  color: #2c3e50;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
 /* Leadership Team Section */
 .leadership-section {
   margin-top: 4rem;
@@ -512,10 +503,9 @@ html {
   font-size: 1rem;
 }
 .leader-card .bio {
-  color: #333;
+  color: #666;
   line-height: 1.6;
   font-size: 0.95rem;
-  font-weight: 400;
 }
 
 /* Services Section */
@@ -658,10 +648,9 @@ html {
 }
 .testimonial-content p {
   font-style: italic;
-  color: #333;
+  color: #555;
   line-height: 1.6;
   font-size: 1rem;
-  font-weight: 400;
 }
 .testimonial-author {
   display: flex;
@@ -778,26 +767,6 @@ html {
   height: 3px;
   background: linear-gradient(90deg, #8b4513, #d4af37);
   border-radius: 2px;
-}
-
-.contact-info p {
-  color: #2c3e50;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  font-weight: 500;
-  margin-bottom: 0.8rem;
-}
-
-.contact-info a {
-  color: #8b4513;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.contact-info a:hover {
-  color: #d4af37;
-  text-decoration: underline;
 }
 /* Contact form styles removed - map now takes this space */
 
